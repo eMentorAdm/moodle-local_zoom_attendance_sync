@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Plugin administration pages are defined here.
+ * Token handler class
  *
  * @package     local_zoom_attendance_sync
  * @copyright   2023 e-Mentor srl <service@e-mentor.it>
@@ -30,6 +30,10 @@ defined('MOODLE_INTERNAL') || die();
 use Exception;
 use local_zoom_attendance_sync\webservices\token_webservice;
 
+/**
+ * Class 	token_handler
+ * @package local_zoom_attendance_sync\handlers
+ */
 class token_handler
 {
 

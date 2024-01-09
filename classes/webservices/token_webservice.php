@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Plugin administration pages are defined here.
+ * Token Webservice Class
  *
  * @package     local_zoom_attendance_sync
  * @copyright   2023 e-Mentor srl <service@e-mentor.it>

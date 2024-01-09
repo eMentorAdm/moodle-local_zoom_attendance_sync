@@ -30,6 +30,10 @@ defined('MOODLE_INTERNAL') || die();
 use Exception;
 use local_zoom_attendance_sync\handlers\mail_handler;
 
+/**
+ * Class 	send_notification
+ * @package local_zoom_attendance_sync\task
+ */
 class send_notification extends \core\task\scheduled_task {
 
     /**

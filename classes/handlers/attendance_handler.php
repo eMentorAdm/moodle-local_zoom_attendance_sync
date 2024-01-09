@@ -31,7 +31,7 @@ require_once($CFG->dirroot.'/local/zoom_attendance_sync/locallib.php');
 
 /**
  * Class 	attendance_handler
- * @package local_zoom_attendance_sync\webservices
+ * @package local_zoom_attendance_sync\handlers
  */
 class attendance_handler
 {
@@ -142,7 +142,6 @@ class attendance_handler
      * @return array timing for each student
      * 
      */
-
     function get_participants_timing($participants_data,$students)
     {
         $pariticipants_timing = array();

@@ -22,7 +22,6 @@
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-
 namespace local_zoom_attendance_sync\task;
 
 defined('MOODLE_INTERNAL') || die();
@@ -34,6 +33,10 @@ use local_zoom_attendance_sync\handlers\attendance_handler;
 global $CFG;
 require_once($CFG->dirroot.'/local/zoom_attendance_sync/locallib.php');
 
+/**
+ * Class 	sync_attendance
+ * @package local_zoom_attendance_sync\task
+ */
 class sync_attendance extends \core\task\scheduled_task {
 
     /**

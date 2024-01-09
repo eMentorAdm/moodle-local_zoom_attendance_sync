@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * lib functions are defined here.
+ * Zoom Meeting Webservice Class
  *
  * @package     local_zoom_attendance_sync
  * @copyright   2023 e-Mentor srl <service@e-mentor.it>

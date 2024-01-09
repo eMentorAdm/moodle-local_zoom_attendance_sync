@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Plugin administration pages are defined here.
+ * Zoom meeting handler class
  *
  * @package     local_zoom_attendance_sync
  * @copyright   2023 e-Mentor srl <service@e-mentor.it>
@@ -32,7 +32,7 @@ use local_zoom_attendance_sync\webservices\meeting_participants_webservice;
 
 /**
  * Class 	zoom_meeting_handler
- * @package local_zoom_attendance_sync\webservices
+ * @package local_zoom_attendance_sync\handlers
  */
 class zoom_meeting_handler
 {
