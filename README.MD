@@ -1,7 +1,7 @@
 # Zoom Attendance Sync for Moodle
 
 ## Introduction
-Elevate your Moodle and Zoom integration with our cutting-edge Zoom Scheduler Plugin. Seamlessly linking Zoom schedules with your Moodle courses, this plugin revolutionizes the way educators and learners manage online sessions. Not only does it simplify scheduling, but it also intelligently tracks user attendance, providing valuable insights for a more efficient learning experience.
+Elevate your Moodle and Zoom integration with our cutting-edge Zoom Attendance Sync Plugin. Seamlessly linking Zoom schedules with your Moodle courses, this plugin revolutionizes the way educators and learners manage online sessions. Not only does it simplify scheduling, but it also intelligently tracks user attendance, providing valuable insights for a more efficient learning experience.
 
 ## Installation
 1. Log in to your Moodle administrator account.
