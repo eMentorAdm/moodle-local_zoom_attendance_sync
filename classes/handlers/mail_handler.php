@@ -53,8 +53,8 @@ class mail_handler
     function send_notification($student)
     {
         
-        $subject = get_string("notification_mail_subject",["meeting_name"=>$this->meeting->name]);
-        $message = get_string("notification_mail_text",["firstname"=>$student->firstname,"lastname"=>$student->lastname, "meeting_name"=>$this->meeting->name, "date"=>date("d/m/Y",$this->meeting->start_time)]);
+        $subject = get_string("notification_mail_subject","local_zoom_attendance_sync",["meeting_name"=>$this->meeting->name]);
+        $message = get_string("notification_mail_text","local_zoom_attendance_sync",["firstname"=>$student->firstname,"lastname"=>$student->lastname, "meeting_name"=>$this->meeting->name, "date"=>date("d/m/Y",$this->meeting->start_time)]);
         $email_user = new \stdClass();
         $email_user->email=$student->email;
         $email_user->firstname=$student->firstname;
